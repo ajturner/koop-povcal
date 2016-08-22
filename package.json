@@ -1,0 +1,36 @@
+{
+  "name": "koop-povcal",
+  "description": "Koop provider for Povcal: global poverty monitoring",
+  "version": "0.0.1",
+  "author": "Andrew Turner <andrew@esri.com>",
+  "bugs": {
+    "url": "https://github.com/ajturner/koop-povcal/issues"
+  },
+  "dependencies": {
+    "babyparse": "^0.4.6",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/ajturner/koop-povcal",
+  "keywords": [
+    "etl",
+    "feature",
+    "feature-service",
+    "geojson",
+    "poverty",
+    "gpsdd",
+    "sdg",
+    "koop",
+    "provider",
+    "service"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ajturner/koop-povcal.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  }
+}

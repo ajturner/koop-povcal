@@ -1,0 +1,16 @@
+{
+  "name": "koop-povcal",
+  "version": "0.0.1",
+  "description": "Example app for the koop-povcal provider",
+  "main": "index.js",
+  "author": "Andrew Turner <andrew@esri.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.12.4",
+    "koop": "^2.12.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
